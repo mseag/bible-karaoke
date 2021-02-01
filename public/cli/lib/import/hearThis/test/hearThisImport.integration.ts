@@ -1,8 +1,7 @@
 import test from 'ava';
-import path from 'path';
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const map = require('lodash/map');
 import fs from 'fs';
+import { map } from 'lodash';
+import path from 'path';
 import { scenarios } from './scenarios';
 import { convert } from '../hearThisConvert';
 import { BKProject } from '../../../../../models/projectFormat.model';
